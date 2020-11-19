@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{06d2aa9e-11df-4a76-83d7-afa9211bb789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\engine">
+      <UniqueIdentifier>{8a1d8433-828b-4ad6-a170-56b2655e59db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\camera">
+      <UniqueIdentifier>{10e96d03-765b-4d78-83a9-7941a1237ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\shader">
+      <UniqueIdentifier>{20a05670-923c-428d-b857-ba8977446c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\textureLoader">
+      <UniqueIdentifier>{f3735998-258e-422b-aac5-8902c054272c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\shaderPack">
+      <UniqueIdentifier>{1b910781-dec5-408d-9eec-44b7c305eb76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\object">
+      <UniqueIdentifier>{dc771c04-ab4a-4bdc-b207-3364a9259588}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FoxyBoxy-3DFramework.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libs\src\glad.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework\engine\engine.h">
+      <Filter>framework\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\shader\shader.h">
+      <Filter>framework\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\engine\settings.h">
+      <Filter>framework\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\object\object.h">
+      <Filter>framework\object</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\textureLoader\textureLoader.h">
+      <Filter>framework\textureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\camera\camera.h">
+      <Filter>framework\camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaderPack\shader.frag">
+      <Filter>framework\shaderPack</Filter>
+    </None>
+    <None Include="resources\shaderPack\shader.vert">
+      <Filter>framework\shaderPack</Filter>
+    </None>
+    <None Include="resources\shaderPack\flatColorShader.fs">
+      <Filter>framework\shaderPack</Filter>
+    </None>
+    <None Include="resources\shaderPack\flatColorShader.vs">
+      <Filter>framework\shaderPack</Filter>
+    </None>
+  </ItemGroup>
+</Project>
